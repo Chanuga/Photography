@@ -11,8 +11,10 @@
     <!-- FAVICON -->
     <link rel="icon" type="img" href="FAVICON/FAVICON.jpg">
 
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Girassol|Kulim+Park|Ma+Shan+Zheng&display=swap" rel="stylesheet">
 
+    <!-- StyleSheet -->
     <link href="Styles.css" rel="stylesheet">
 
     <title>Photography</title>
@@ -30,13 +32,12 @@
           <a class="nav-item nav-link" href="#Home">Home</a>
           <a class="nav-item nav-link" href="#About Us">About Us</a>
           <a class="nav-item nav-link" href="#Services">Services</a>
-          <a class="nav-item nav-link" href="#">Portfolio</a>
+          <a class="nav-item nav-link" href="#Portfolio">Portfolio</a>
           <a class="nav-item nav-link" href="#">Contact</a>
         </div>
       </div>
     </nav>
     <!-- End of menu area -->
-    <br/>
 
     <!-- Start of Carousel-->
     <a name = "Home"></a>
@@ -112,12 +113,11 @@
     </div>
     <!-- End of About Us -->
 
-    <br/>
     <!-- Start of Services -->
     <a name = "Services"></a>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid; bg-dark ">
       <div class="container">
-        <h1 class="display-4">Services</h1>
+        <h1 class="display-4 text-light">Services</h1>
         <div class="card-deck">
           <div class="card">
             <img src="IMG/A4.jpg" class="card-img-top" alt="...">
@@ -146,9 +146,65 @@
     <!-- End of Services -->
 
     <!-- Start of Portfolio -->
+    <a name = "Portfolio"></a>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">Portfolio</h1>
+
+        <!-- Grid row -->
+        <div class="row">
+
+        </div>
+        <!-- Grid row -->
+
+        <!-- Grid row -->
+        <div class="gallery" id="gallery">
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="IMG/A1.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="IMG/B1.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="IMG/A2.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="IMG/B2.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="IMG/A3.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="IMG/B3.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="IMG/74888302_737481286724119_2165959167083282432_o.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
       </div>
     </div>
     <!-- End of Portfolio -->
@@ -156,8 +212,15 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+      // MDB Lightbox Init
+      (function () {
+      $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+      });
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
   </body>
 </html>
